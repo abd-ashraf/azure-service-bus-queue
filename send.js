@@ -1,10 +1,10 @@
 const { ServiceBusClient } = require("@azure/service-bus");
 
 // connection string to your Service Bus namespace
-const connectionString = "Endpoint=sb://service-bus-queue.servicebus.windows.net/;SharedAccessKeyName=my-policy;SharedAccessKey=okzwYq1xXFXBiWMYjQvgsLAZY2GJA/zOL+ASbK0rkOM=;EntityPath=my-queue"
+const connectionString = "connection-string"
 
 // name of the queue
-const queueName = "my-queue"
+const queueName = "queue-name"
 
 const messages = [
     { body: "Albert Einstein" },
